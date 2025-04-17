@@ -1,0 +1,54 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session version="3" skip_do_file="0">
+ <app argc="8">
+  <argv value="vsim" pos="0"/>
+  <argv value="+onfinish+stop" pos="1"/>
+  <argv value="+UVM_TESTNAME=test_top" pos="2"/>
+  <argv value="+UVM_VERBOSITY=UVM_HIGH" pos="3"/>
+  <argv value="-do" pos="4"/>
+  <argv value="set NoQuitOnFinish 1;onbreak {resume}; run -all; do waves.do; coverage save test_top.ucdb;" pos="5"/>
+  <argv value="+designfile+design.bin" pos="6"/>
+  <argv value="+_sv_debug_+vsim-64-onfinishstop-classdebug-uvmcontrol=all-msgmodeboth+UVM_TESTNAME=test_top+UVM_VERBOSITY=UVM_HIGH-qwavedb=+transaction+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc-libqrun.out/work-statslogqrun.out/stats_logqrun_opt-appendlog" pos="7"/>
+ </app>
+ <window_config>
+  <dockareas bottom="224" left="204" top="0" right="621"/>
+  <taborder bottom="transcript+" left="files+structure+testbench+" right="drvrecadv+streams+generallist+"/>
+  <activetab/>
+  <window visible="0" dock_location="left" type="files" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="left" type="structure" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="left" type="testbench" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="right" type="drvrecadv" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="right" type="streams" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="right" type="generallist" x="0" height="248" undocked="0" y="0" width="258"/>
+  <window visible="0" dock_location="bottom" type="transcript" x="0" height="649" undocked="0" y="0" width="1280"/>
+  <window visible="0" type="rtl" x="8" height="649" undocked="0" y="31" width="1279"/>
+  <window visible="0" dock_location="top" type="wave" x="8" height="649" undocked="1" y="31" width="1279"/>
+  <window visible="0" dock_location="bottom" type="wave" x="0" height="649" undocked="1" id="1" y="23" width="1280"/>
+  <window visible="0" dock_location="center" path="/mnt/ncsudrive/n/nrangar/ece748_projectsv2/project_benches/decode/tb/testbench/hdl_top.sv" type="source" firstVisibleLine="2" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="right" type="watch" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="bottom" type="msgviewer" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="right" type="instances" x="0" undocked="0" y="0"/>
+  <window visible="0" dock_location="right" type="schematic" x="8" height="649" undocked="1" y="31" width="1280"/>
+  <window visible="0" dock_location="right" type="schematic" x="0" height="649" undocked="1" id="1" y="23" width="1280"/>
+  <window visible="0" dock_location="bottom" type="coveragesummary" x="0" undocked="0" y="0"/>
+ </window_config>
+ <wave_file_mgr/>
+ <gui>
+  <main_window visible="0">
+   <srcbrowser filepath="/mnt/ncsudrive/n/nrangar/ece748_projectsv2/project_benches/decode/tb/testbench/hdl_top.sv" instancename="hdl_top" primary="true" value_tooltip_mode="true"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 3"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting customDisplayTimeUnitListStr="" curDisplayTimeUnit="-7" curDisplayTimeUnitStr="100ns" curRadix="8">
+   <curTime lowtime="0" hightime="0"/>
+  </watchTower_cur_setting>
+ </gui>
+ <wave_mgr sync_time_range="0"/>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="hdl_top"/>
+</session>
